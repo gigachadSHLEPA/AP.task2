@@ -9,230 +9,186 @@
         ResizeMode="NoResize"
          WindowStyle="None"
         WindowStartupLocation="CenterScreen"
+        Background="Transparent"
         >
     <Border>
-        
+
         <Grid>
 
-            <Image Source="/images/glavgiga.png"/>
-            <Button 
+            <Image Source="/images/glavgiga.png" Stretch="Fill"/>
+
+            <Border>
+                <Grid>
+
+                    <Button 
                Height="65"
-                Width="65"
+                Width="66"
                 Background="Black"
                 
                     x:Name="MNBTN7"
-                    Click="MNBTN7_Click" Margin="601,10,442,1109"
-                   BorderThickness="0" >
-                <TextBlock Text="7" FontSize="30" Foreground="White"/>
-            </Button>
-            <Button 
+                    Click="MNBTN7_Click" 
+                   BorderThickness="0" Margin="601,36,441,1081">
+                        <TextBlock Text="7" FontSize="30" Foreground="White"/>
+                    </Button>
+                    <Button 
                Height="65"
                 Width="65"
                 Background="Black"
                     x:Name="MNBTN8"
-                    Click="MNBTN8_Click" Margin="671,10,372,1109"
-                   BorderThickness="0" >
-                <TextBlock Text="8" FontSize="30" Foreground="White"/>
-            </Button>
-            <Button 
+                    Click="MNBTN8_Click" 
+                   BorderThickness="0" 
+                        Margin="672,36,371,1081">
+                        <TextBlock Text="8" FontSize="30" Foreground="White"/>
+                    </Button>
+                    <Button 
                Height="65"
                 Width="65"
                 Background="Black"
                     x:Name="MNBTN9"
-                    Click="MNBTN9_Click" Margin="741,10,302,1109"
-                   BorderThickness="0" Cursor="Hand" >
-                <TextBlock Text="9" FontSize="30" Foreground="White"/>
-            </Button>
-            <Button 
+                    Click="MNBTN9_Click" 
+                   BorderThickness="0" Margin="742,36,301,1081"  >
+                        <TextBlock Text="9" FontSize="30" Foreground="White"/>
+                    </Button>
+                    <Button 
                Height="65"
                 Width="65"
                 Background="Black"
                     x:Name="MNBTN10"
-                    Click="MNBTN10_Click" Margin="811,10,232,1109"
-                   BorderThickness="0" >
-                <TextBlock Text="10" FontSize="30" Foreground="White"/>
-            </Button>
-            <Button 
+                    Click="MNBTN10_Click" 
+                   BorderThickness="0" Margin="812,36,231,1081" >
+                        <TextBlock Text="10" FontSize="30" Foreground="White"/>
+                    </Button>
+                    <Button 
                Height="65"
                 Width="65"
                 Background="Black"
                     x:Name="MNBTN11"
-                    Click="MNBTN11_Click" Margin="881,10,162,1109"
-                   BorderThickness="0" >
-                <TextBlock Text="11" FontSize="30" Foreground="White"/>
-            </Button>
-            <Button 
+                    Click="MNBTN11_Click"
+                   BorderThickness="0" Margin="882,36,161,1081" >
+                        <TextBlock Text="11" FontSize="30" Foreground="White"/>
+                    </Button>
+                    <Button 
                Height="65"
                 Width="65"
                 Background="Black"
                     x:Name="MNBTN12"
-                    Click="MNBTN12_Click" Margin="951,10,92,1109"
-                   BorderThickness="0" >
-                <TextBlock Text="12" FontSize="30" Foreground="White"/>
-            </Button>
-            <Button 
+                    Click="MNBTN12_Click"
+                   BorderThickness="0" Margin="952,36,91,1081" >
+                        <TextBlock Text="12" FontSize="30" Foreground="White"/>
+                    </Button>
+                    <Button 
                Height="65"
                 Width="65"
                 Background="Black"
                     x:Name="MNBTN13"
-                    Click="MNBTN13_Click" Margin="1021,10,22,1109"
-                   BorderThickness="0" >
-                <TextBlock Text="13" FontSize="30" Foreground="White"/>
-            </Button>
-            <Button 
+                    Click="MNBTN13_Click"
+                   BorderThickness="0" Margin="1022,36,21,1081" >
+                        <TextBlock Text="13" FontSize="30" Foreground="White"/>
+                    </Button>
+                    <Button 
                Height="65"
                 Width="65"
                 Background="Black"
                     x:Name="MNBTN14"
-                    Click="MNBTN14_Click" Margin="601,98,442,1021"
-                   BorderThickness="0" >
-                <TextBlock Text="14" FontSize="30" Foreground="White"/>
-            </Button>
-            <Button 
+                    Click="MNBTN14_Click"
+                   BorderThickness="0" Margin="634,125,410,992" >
+                        <TextBlock Text="14" FontSize="30" Foreground="White"/>
+                    </Button>
+                    <Button 
                Height="65"
                 Width="65"
                 Background="Black"
                     x:Name="MNBTN15"
-                    Click="MNBTN15_Click" Margin="671,98,372,1021"
-                   BorderThickness="0" >
-                <TextBlock Text="15" FontSize="30" Foreground="White"/>
-            </Button>
-            <Button 
-               Height="65"
-                Width="65"
-                Background="Black"
-                    x:Name="MNBTN16"
-                    Click="MNBTN16_Click" Margin="741,98,302,1021"
-                   BorderThickness="0" >
-                <TextBlock Text="16" FontSize="30" Foreground="White"/>
-            </Button>
-            <Button 
-               Height="65"
-                Width="65"
-                Background="Black"
-                    x:Name="MNBTN17"
-                    Click="MNBTN17_Click" Margin="811,98,232,1021"
-                   BorderThickness="0" >
-                <TextBlock Text="17" FontSize="30" Foreground="White"/>
-            </Button>
-            <Button 
-               Height="65"
-                Width="65"
-                Background="Black"
-                    x:Name="MNBTN18"
-                    Click="MNBTN18_Click" Margin="881,98,162,1021"
-                   BorderThickness="0" >
-                <TextBlock Text="18" FontSize="30" Foreground="White"/>
-            </Button>
+                    Click="MNBTN15_Click" 
+                   BorderThickness="0" Margin="704,125,339,992" >
+                        <TextBlock Text="15" FontSize="30" Foreground="White"/>
+                    </Button>
 
-            <Button 
-               Height="65"
-                Width="65"
-                Background="Black"
-                    x:Name="MNBTN19"
-                    Click="MNBTN19_Click" Margin="951,98,92,1021"
-                   BorderThickness="0" >
-                <TextBlock Text="19" FontSize="30" Foreground="White"/>
-            </Button>
-            <Button 
-               Height="65"
-                Width="65"
-                Background="Black"
-                    x:Name="MNBTN20"
-                    Click="MNBTN20_Click" Margin="1021,98,22,1021"
-                   BorderThickness="0" >
-                <TextBlock Text="20" FontSize="30" Foreground="White"/>
-            </Button>
-            <Button 
-               Height="65"
-                Width="65"
-                Background="Black"
-                    x:Name="MNBTN21"
-                    Click="MNBTN21_Click" Margin="601,188,442,931"
-                   BorderThickness="0" >
-                <TextBlock Text="21" FontSize="30" Foreground="White"/>
-            </Button>
-            <Button 
+                    
+                    <Button 
                Height="65"
                 Width="65"
                 Background="Black"
                     x:Name="MNBTN22"
-                    Click="MNBTN22_Click" Margin="671,188,372,931"
-                   BorderThickness="0" >
-                <TextBlock Text="22" FontSize="30" Foreground="White"/>
-            </Button>
-            <Button 
+                    Click="MNBTN22_Click"
+                   BorderThickness="0" Margin="774,125,269,992" >
+                        <TextBlock Text="22" FontSize="30" Foreground="White"/>
+                    </Button>
+                    <Button 
                Height="65"
                 Width="65"
                 Background="Black"
                     x:Name="MNBTN23"
-                    Click="MNBTN23_Click" Margin="741,188,302,931"
-                   BorderThickness="0" >
-                <TextBlock Text="23" FontSize="30" Foreground="White"/>
-            </Button>
-            <Button 
+                    Click="MNBTN23_Click"
+                   BorderThickness="0" Margin="844,125,198,992" >
+                        <TextBlock Text="23" FontSize="30" Foreground="White"/>
+                    </Button>
+                    <Button 
                Height="65"
                 Width="65"
                 Background="Black"
                     x:Name="MNBTN24"
-                    Click="MNBTN24_Click" Margin="811,188,232,931"
-                   BorderThickness="0" >
-                <TextBlock Text="24" FontSize="30" Foreground="White"/>
-            </Button>
-            <Button 
+                    Click="MNBTN24_Click"
+                   BorderThickness="0" Margin="914,125,128,992" >
+                        <TextBlock Text="24" FontSize="30" Foreground="White"/>
+                    </Button>
+                    <Button 
                Height="65"
                 Width="65"
                 Background="Black"
                     x:Name="MNBTN25"
-                    Click="MNBTN25_Click" Margin="881,188,162,931"
-                   BorderThickness="0" >
-                <TextBlock Text="25" FontSize="30" Foreground="White"/>
-            </Button>
-            <Button 
+                    Click="MNBTN25_Click"
+                   BorderThickness="0" Margin="984,125,58,992" >
+                        <TextBlock Text="25" FontSize="30" Foreground="White"/>
+                    </Button>
+                    <Button 
                Height="65"
                 Width="65"
                 Background="Black"
                     x:Name="MNBTN26"
-                    Click="MNBTN26_Click" Margin="951,188,92,931"
-                   BorderThickness="0" >
-                <TextBlock Text="26" FontSize="30" Foreground="White"/>
-            </Button>
-            <Button 
+                    Click="MNBTN26_Click"
+                   BorderThickness="0" Margin="672,215,371,902" >
+                        <TextBlock Text="26" FontSize="30" Foreground="White"/>
+                    </Button>
+                    <Button 
                Height="65"
                 Width="65"
                 Background="Black"
                     x:Name="MNBTN27"
-                    Click="MNBTN27_Click" Margin="1021,188,22,931"
-                   BorderThickness="0" >
-                <TextBlock Text="27" FontSize="30" Foreground="White"/>
-            </Button>
-            <Button 
+                    Click="MNBTN27_Click"
+                   BorderThickness="0" Margin="742,215,301,902" >
+                        <TextBlock Text="27" FontSize="30" Foreground="White"/>
+                    </Button>
+                    <Button 
                Height="65"
                 Width="65"
                 Background="Black"
                     x:Name="MNBTN28"
-                    Click="MNBTN28_Click" Margin="741,280,302,839"
-                   BorderThickness="0" >
-                <TextBlock Text="28" FontSize="30" Foreground="White"/>
-            </Button>
-            <Button 
+                    Click="MNBTN28_Click" 
+                   BorderThickness="0" Margin="812,215,231,902" >
+                        <TextBlock Text="28" FontSize="30" Foreground="White"/>
+                    </Button>
+                    <Button 
                Height="65"
                 Width="65"
                 Background="Black"
                     x:Name="MNBTN29"
-                    Click="MNBTN29_Click" Margin="811,280,232,839"
+                    Click="MNBTN29_Click" Margin="882,215,161,902"
                    BorderThickness="0" >
-                <TextBlock Text="29" FontSize="30" Foreground="White"/>
-            </Button>
-            <Button 
+                        <TextBlock Text="29" FontSize="30" Foreground="White"/>
+                    </Button>
+                    <Button 
                Height="65"
                 Width="65"
                 Background="Black"
                     x:Name="MNBTN30"
-                    Click="MNBTN30_Click" Margin="881,280,162,839"
+                    Click="MNBTN30_Click" Margin="952,215,91,902"
                    BorderThickness="0" >
-                <TextBlock Text="30" FontSize="30" Foreground="White"/>
-            </Button>
+                        <TextBlock Text="30" FontSize="30" Foreground="White"/>
+                    </Button>
         </Grid>
+    </Border>
+
+    </Grid>
     </Border>
 </Window>
